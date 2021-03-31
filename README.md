@@ -1,2 +1,2 @@
-# Gerenciamento de pedidos
+# Projeto de Gerenciamento de pedidos.
  Painel onde sera possivel gerenciar seus pedido.
