@@ -11,6 +11,7 @@ form{
 .janela{
     box-shadow: 1px 1px 4px black;
     background-color: rgb(255, 249, 249);
+    border-radius: 5px;
     padding: 10px;
 }
 .conteudo-top > h2{
