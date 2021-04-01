@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-image: url(../img/Fundo-login.jpg);
+    background-size: cover;
+}
+form{
+    width: 500px;
+    margin: auto;
+    padding-top: 80px;
+}
+.janela{
+    box-shadow: 1px 1px 4px black;
+    background-color: rgb(255, 249, 249);
+    border-radius: 5px;
+    padding: 10px;
+}
+.conteudo-top > h2{
+    font-size: 20px;
+    color: black;
+}
+.conteudo-top{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(153, 19, 19);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.conteudo{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+}
+.conteudo > input{
+    border: none;
+    border-bottom: solid 1px;
+    outline: 0;
+    width: 300px;
+    height: 22px;
+    padding: 3px;
+    background-color: rgb(255, 249, 249);
+}
+.conteudo > button{
+    background-color: rgb(155, 179, 155);
+    border: 0;
+    width: 300px;
+    border-radius: 30px;
+    height: 45px;
+    cursor: pointer;
+    outline: 0;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.button{
+    text-align: center;
+}
