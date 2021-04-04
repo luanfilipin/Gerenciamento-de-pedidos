@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    background-image: url(../img/Fundo-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: rgb(51, 53, 51);
+    width: 100%;
+    height: 80px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.menu{
+    display: inline-block;
+    height: 100%;
+    background-color: rgb(168, 159, 159);
+}
+ul {
+    list-style: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+ul > li{
+    text-align: center;
+}
+a {
+    color: #e7e7e7;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover {
+    background-color: #737973;
+    transition: all 0.5s ease;
+    color: #000000;
+}
+.estatus-pedido{
+    background-color: rgb(189, 186, 186);  
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+    height: 150px;
+
+}
+
