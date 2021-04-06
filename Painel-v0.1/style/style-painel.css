@@ -19,7 +19,7 @@ img{
     position: absolute;
     display: inline-block;
     height: 100%;
-    background-color: rgb(168, 159, 159);
+    background-color: rgb(80, 120, 145);
 }
 ul {
     list-style: none;
@@ -31,19 +31,26 @@ ul > li{
     text-align: center;
 }
 a {
-    color: #e7e7e7;
+    color: #ffffff;
     display: block;
     padding: 10px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
 }
 a:hover {
-    background-color: #aab3aa;
+    background-color: rgb(105, 148, 175);
     transition: all 0.5s ease;
     color: #000000;
 }
+.icone{
+    height: 53px;
+    width: 53px;
+}
 .estatus-pedido{
-    background-color: rgb(168, 159, 159); 
+    background-color: rgb(241, 234, 234);
+    border: solid 1px;
+    border-bottom: solid 2px;
     float: left;
     width: auto;
     height: auto;
@@ -59,7 +66,7 @@ a:hover {
 .status{
     margin-top: 50px;
     margin-bottom: 40px;
-    height: auto;
+    height: 110px;
     width: 200px;
     background-color: rgb(126, 122, 122);
     display: inline-block; 
@@ -71,27 +78,28 @@ a:hover {
     font-size: 20px;
     text-align: center;
     font-weight: lighter;
-    margin-top: 1px;
+    margin-top: 15px;
 }
 p{
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 2px;
 }
 .status > img{
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .status-aprovado{
-    background-color: rgb(56, 121, 56);
+    background-color: rgb(40, 192, 131);
 }
 .status-cancelado{
-    background-color: rgb(122, 21, 21);
+    background-color: rgb(218, 34, 36);
 }
 .status-pendente{
-    background-color: rgb(116, 116, 22);
+    background-color: rgb(226, 226, 57);
 }
 .status-analise{
-    background-color: rgb(62, 62, 150);
+    background-color: rgb(91, 91, 228);
 }
     
