@@ -30,7 +30,7 @@ ul {
 ul > li{
     text-align: center;
 }
-a {
+li > a {
     color: #ffffff;
     display: block;
     padding: 10px;
@@ -62,6 +62,23 @@ a:hover {
     font-size: 16px;
     margin-bottom: -5px;
     margin-left: 5px;
+    display: inline-block;
+}
+.atualizar{
+    display: inline;
+    float: right;
+    margin-top: 4px;
+    margin-right: 6px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.img-atualizar{
+    display: inline;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+.estatus-pedido > hr {
+    margin-top: 15px;
 }
 .status{
     margin-top: 50px;
@@ -80,6 +97,7 @@ a:hover {
     font-weight: lighter;
     margin-top: 15px;
 }
+
 p{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
