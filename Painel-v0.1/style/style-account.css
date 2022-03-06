@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
-    background-image: url(../img/Fundo-login.jpg);
+    background-image: url(../img/login-background.jpg);
     background-size: cover;
 }
 form{
-    width: 500px;
+    width: 450px;
     margin: auto;
     padding-top: 80px;
 }
@@ -14,22 +14,18 @@ form{
     border-radius: 5px;
     padding: 10px;
 }
-.conteudo-top > h2{
+.conteudo-top > p{
     font-size: 20px;
     color: black;
 }
-.conteudo-top > p{
-    font-size: 13px;
-    text-transform:uppercase;
-}
 .conteudo-top{
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
     color: rgb(153, 19, 19);
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;
 }
+    
 .conteudo{
     font-family: 'Open Sans', sans-serif;
     text-align: left;
@@ -41,16 +37,16 @@ form{
     border: none;
     border-bottom: solid 1px;
     outline: 0;
-    width: 300px;
+    width: 100%;
     height: 22px;
     padding: 3px;
     background-color: rgb(255, 249, 249);
 }
 .conteudo > button{
-    background-color: rgb(155, 179, 155);
+    background-color: rgb(37, 197, 255);
     border: 0;
-    width: 300px;
-    border-radius: 30px;
+    width: 100%;
+    border-radius: 25px;
     height: 45px;
     cursor: pointer;
     outline: 0;
@@ -59,4 +55,32 @@ form{
 }
 .button{
     text-align: center;
+}
+.sucesso{
+    background-color: rgb(22, 221, 55);
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    border-radius: 5px 1px 1px;
+}
+.sucesso > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5px;
+}
+.falha{
+    background-color: rgb(250, 41, 41);
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    border-radius: 5px 1px 1px;
+}
+.falha > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 5px;
 }

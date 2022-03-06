@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: rgb(93, 177, 207);
+    width: 100%;
+    height: 50px;
+}
+hr{
+    margin: 0px;
+    border: 1px solid rgb(218, 216, 216)
+}
+img{
+    display: block;
+    margin: auto;
+}
+.menu{
+    margin-top: 0px;
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    background-color: rgb(93, 177, 207);
+}
+ul {
+    list-style: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+ul > li{
+    text-align: center;
+}
+li > a {
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+}
+a:hover {
+    background-color: rgb(77, 148, 173);
+    transition: all 0.5s ease;
+    color: white;
+}
+.icone{
+    height: 53px;
+    width: 53px;
+}
+
+.janela-catalogo{
+    background-color: #ece5e5;  
+    margin-left: 320px;
+    margin-top: 30px;
+    margin-right: 100px;
+    border: 1px solid rgb(8, 8, 8);
+    padding: 20px;
+}
+.alinhamento {
+    display: inline-block;
+}
+.alinhamento > label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.alinhamento > input{
+    font-size: 15px;
+    padding-left: 5px;
+    margin-top: 50px;
+    outline: 0;
+}
+.alinhamento-descricao{
+    margin-top: 50px;
+    outline: 0;
+    display: inline-block;
+}
+.alinhamento-descricao > label{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.alinhamento-descricao > textarea{
+    outline: 0;
+    width: 700px;
+    height: 250px;
+}
+.alinhamento-foto{
+    margin-top: 50px;
+}
+.alinhamento-foto > label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.alinhamento-button{
+    margin-top: 50px;
+    display: inline-block;
+}
+.alinhamento-button > button{
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+}
+.alinhamento-reset{
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+.alinhamento-reset > input{
+    background-color: #e75555;
+    width: 150px;
+    height: 50px;
+}

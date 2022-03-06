@@ -1,17 +1,30 @@
 <?php
+    session_start();
     include ("conexao.php");
 
-    $nome = $_POST["nome"];
-    $email = $_POST["email"];
-    $password = $_POST["senha"];
+    $nome = mysqli_real_escape_string($mysqli, trim($_POST["nome"]));
+    $email = mysqli_real_escape_string($mysqli, trim($_POST["email"]));
+    $password = mysqli_real_escape_string($mysqli, trim($_POST["senha"]));
 
-    $sql="INSERT INTO usuario(nome, email, senha ) 
-    VALUES ('$nome', '$email', '$password')";
+    $sql = "SELECT count(*) AS total FROM usuario WHERE email = '$email'";
+    $result = mysqli_query($mysqli, $sql);
+    $row = mysqli_fetch_assoc($result);
 
-    if(mysqli_query($mysqli, $sql)){
-        echo "Usuario cadastro com sucesso!";
-    }else{
-        echo "Erro".mysqli_connect_error($mysqli);
+    if($row['total'] == 1){
+        $_SESSION['usuario_existente'] = true;
+        header('Location: ../register.php');
+        exit;
     }
 
+    $sql="INSERT INTO usuario(nome, email, senha, data_cadastro ) VALUES ('$nome', '$email', '$password', NOW())";
+
+    if($mysqli->query($sql) === TRUE){
+        $_SESSION['status_cadastro'] = true;
+    }
+
+
     mysqli_close($mysqli);
+
+    header('Location: ../register.php');
+    exit;
+?>
