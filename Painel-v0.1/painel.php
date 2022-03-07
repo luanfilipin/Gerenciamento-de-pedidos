@@ -19,8 +19,8 @@
         <ul>
             <li><a href="painel.php"><img class="icone" src="img/home.png" alt="">Dashboard</a></li>
             <li><a href="pedidos.php"><img class="icone" src="img/pedido.png" alt="">Pedidos</a></li>
-            <li><a href="#"><img class="icone" src="img/estoque.png" alt="">Estoque</a></li>
             <li><a href="catalogo.php"><img class="icone" src="img/catalogo.png" alt="">Catalago</a></li>
+            <li><a href="#"><img class="icone" src="img/estoque.png" alt="">Estoque</a></li>
             <li><a href="#"><img class="icone" src="img/estatistica.png" alt="">Estatística</a></li>
             <li><a href="#"><img class="icone" src="img/logistica.png" alt="">Logistica</a></li>
             <li><a href="#"><img class="icone" src="img/rastreio.png" alt="">Rastreio</a></li>
@@ -30,19 +30,19 @@
     <div class="estatus-pedido">
         <div class="status status-novo">
             <h1>Novos</h1>
-            <p>21</p>
+            <p>0</p>
         </div>
         <div class="status status-aprovado ">
             <h1>Aprovados</h1>
-            <p>145</p>
+            <p>0</p>
         </div>
         <div class="status status-cancelados">
             <h1>Cancelados</h1>
-            <p>53</p>
+            <p>0</p>
         </div>
         <div class="status status-total-vendido">
             <h1>Total vendido</h1>
-            <p>R$11.254,52</p>
+            <p>R$ 00.000,00</p>
         </div>
     </div>
 </body>

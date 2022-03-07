@@ -25,8 +25,8 @@ $con = $mysqli->query($consulta) or die($mysqli->error);
         <ul>
             <li><a href="painel.php"><img class="icone" src="img/home.png" alt="">Dashboard</a></li>
             <li><a href="pedidos.php"><img class="icone" src="img/pedido.png" alt="">Pedidos</a></li>
-            <li><a href="#"><img class="icone" src="img/estoque.png" alt="">Estoque</a></li>
             <li><a href="catalogo.php"><img class="icone" src="img/catalogo.png" alt="">Catalago</a></li>
+            <li><a href="#"><img class="icone" src="img/estoque.png" alt="">Estoque</a></li>
             <li><a href="#"><img class="icone" src="img/estatistica.png" alt="">Estatística</a></li>
             <li><a href="#"><img class="icone" src="img/logistica.png" alt="">Logistica</a></li>
             <li><a href="#"><img class="icone" src="img/rastreio.png" alt="">Rastreio</a></li>
