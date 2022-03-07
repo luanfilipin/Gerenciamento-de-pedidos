@@ -14,13 +14,19 @@ form{
     border-radius: 5px;
     padding: 10px;
 }
-.conteudo-top > p{
+.conteudo-top > h1{
     font-size: 20px;
     color: black;
 }
+.conteudo-top > p{
+    font-size: 15px;
+    color: black;
+}
+.conteudo-top, p, a{
+    color: blue;
+}
 .conteudo-top{
     font-family: 'Open Sans', sans-serif;
-    color: rgb(153, 19, 19);
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;

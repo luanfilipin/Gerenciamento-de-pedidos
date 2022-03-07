@@ -60,21 +60,19 @@
             <div class="alinhamento">
                 <label for="marca"><strong>Marca:</strong></label>
                 <input type="text" name="marca" require><br>
-            </div>
-            <!-- <div class="alinhamento-descricao">
+            </div><br>
+            <div class="alinhamento-descricao">
                 <label for="descricao"><strong>Descrição do produto: </strong></label>
                 <textarea name="descricao"></textarea>
-            </div>
-            <div class="alinhamento-foto">
+            </div><br>
+            <!-- <div class="alinhamento-foto">
                 <label for="foto"><strong>Adicionar foto:</strong> </label>
                 <input type="file" name="foto"><br>
             </div> -->
             <div class="alinhamento-button">
-                <button type="submit"><a href="#"><strong>CADASTRAR</strong></a></button>
+                <button type="submit"><strong>CADASTRAR</strong></button>
             </div>
-            <div class="alinhamento-reset">
-                <input type="reset" name="" value="RESETAR CAMPOS"><br>
-            </div>
+
         </div>
     </form>
 </body>

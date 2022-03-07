@@ -16,19 +16,29 @@ session_start();
     <form action="script/create_account.php" method="POST">
         <div class="janela">
             <div class="conteudo-top">
-                <p>Crie sua conta <br>e comece a gerenciar seus pedidos.</p>
+                <h1>Crie sua conta <br>e comece a gerenciar seus pedidos.</h1>
+                <p>Ja possui uma conta? acesse <a href="index.html">aqui</a></p>
             </div>
             <?php
+            /**
+             * Se o cadastro for realizado com sucesso retornar uma notificacao de sucesso.
+             * A funcao isset informa se a variavel foi iniciada
+             */
             if(isset($_SESSION['status_cadastro'])):
             ?>
             <div class="notificacao sucesso">
                 <p><strong>Usuario criado com sucesso!</strong></p>
             </div>
             <?php
+            /**
+             * endif finaliza o bloco do IF.
+             * unset remove a mensagem para que caso o email ja conste na nossa DB nao mostre as duas notificacoes.
+             */
             endif;
             unset($_SESSION['status_cadastro']);
             ?>
             <?php
+            // Se o email ja consta na nossa DB retornar a informacao de usuario existente.
             if (isset($_SESSION['usuario_existente'])) :
             ?>
                 <div class="notificacao falha">
@@ -45,7 +55,7 @@ session_start();
                 <input type="email" placeholder="E-mail" name="email" required>
             </div>
             <div class="conteudo">
-                <input type="password" placeholder="Senha" name="senha" required>
+                <input type="password" maxlength="10" placeholder="Senha" name="senha" required>
             </div>
 
             <div class="conteudo iagree">
